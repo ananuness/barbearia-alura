@@ -1,0 +1,173 @@
+.prices {
+  width: 100%;
+  min-height: 1028px;
+  display: flex;
+  justify-content: center;
+  background: url(../assets/back-2.png) no-repeat center bottom;
+  background-color: var(--gray-100);
+}
+
+.prices-heading {
+  text-align: center;
+}
+
+.prices-heading .section__heading::after {
+  margin: 1rem auto 0;
+}
+
+.prices__card-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 25px 5px rgba(0, 0, 0, .1);
+}
+
+.prices__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-family: var(--font-text);
+  background-color: var(--white);
+}
+
+.prices__card-list {
+  width: 100%;
+  list-style: none;
+}
+
+.prices__card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2rem;
+  color: var(--gray-800);
+  cursor: default;
+}
+
+.prices__card-separator {
+  height: 1px;
+  flex-grow: 1;
+  border-bottom: 1px dashed var(--orange-500);
+}
+
+.prices__card-btn {
+  align-self: flex-end;
+}
+
+.prices__barber-stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.barber-stats__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.barber-stats__data:not(:last-child){
+  border-right: 1px solid var(--gray-600);
+}
+
+.barber-stats__number {
+  margin-bottom: 1.5rem;
+  font-family: var(--font-heading);
+  color: var(--orange-500);
+}
+
+.barber-stats__legend {
+  font-family: var(--font-text);
+  color: var(--gray-400);
+}
+
+@media screen and (min-width: 320px) {
+  .prices {
+    padding: 2rem 0;
+  }
+
+  .prices__card-container {
+    flex-direction: column;
+  }
+
+  .prices__card, .prices__img {
+    width: 100%;
+  }
+
+  .prices__card {
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+
+  .prices__card-item {
+    font-size: 1rem;
+  }
+
+  .prices__barber-stats {
+    width: 100%;
+    margin-top: 4rem;
+  }
+
+  .barber-stats__number {
+    font-size: 2rem;
+  }
+
+  .barber-stats__legend {
+    font-size: .875rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .prices__card {
+    padding: 2.5rem;
+  }
+
+  .barber-stats__number {
+    font-size: 3rem;
+  }
+
+  .barber-stats__legend {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .prices {
+    padding: 3rem 0;
+  }
+
+  .prices__card-item {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .prices__barber-stats {
+    margin-top: 6rem;
+  }
+
+  .barber-stats__number {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .prices {
+    padding: 6rem 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .prices__card-container, .prices__barber-stats {
+    width: calc(560px * 2);
+  }
+  
+  .prices__card-container {
+    flex-direction: row;
+  }
+
+  .prices__card, .prices__img {
+    width: 50%;
+  }
+}

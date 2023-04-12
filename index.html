@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/man-beard.svg" type="image/svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>BarbeariaAlura</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@400;500&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/prices.css">
+    <link rel="stylesheet" href="./css/appointment.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__shadow">
+        <div class="header__content">
+          <div class="header__content-hero">
+            <h1 class="header__title">
+              <a href="#">Barbearia<em>Alura</em></a>
+            </h1>
+            <img 
+              src="./assets/menu-icon.svg" 
+              alt="Menu" 
+              class="header__menu-icon"
+            >
+            <div class="nav-container">
+              <img 
+                src="./assets/close-icon.svg" 
+                alt="Menu" 
+                class="nav__close-icon"
+              >
+              <nav class="header__nav">
+                <ul class="header__nav-list">
+                  <li class="header__nav-item">
+                    <a href="#about" class="header__nav-link">
+                      Sobre
+                    </a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#services" class="header__nav-link">
+                      Serviços
+                    </a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#prices" class="header__nav-link">
+                      Preços
+                    </a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#appointment" class="header__nav-link">
+                      Agendamento
+                    </a>
+                  </li>
+                  <li class="header__nav-item">
+                    <a href="#contact" class="header__nav-link">
+                      Contato
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="header__content-intro">
+            <span class="content-intro__welcome">
+              Boas vindas a Barbearia Alura
+            </span>
+            <h2 class="content-intro__title">Faça jus a sua barba</h2>
+            <p class="content-intro__message">
+              Proporcionamos autoestima e qualidade aos clientes.
+            </p>
+            <a href="#services" class="primary-btn">
+              Nossos serviços
+            </a>
+          </div>   
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <div class="about__img-container">
+          <div class="about__since-detail">
+            <span class="since-detail__year">
+              <em>since</em> <br> 2019
+            </span>
+          </div>
+          <img 
+            src="./assets/barber-cutting.jpg" 
+            alt="Barbeiro fazendo a barba do cliente" 
+            class="about__img"
+          >
+        </div>
+
+        <div class="about__details">
+          <span class="tag">Nossa história</span>
+          <h2 class="section__heading about__details-title">
+            Barbearia Tradicional & Cuidados <br> Contemporâneos
+          </h2>
+          <p class="about__details-paragraph">
+            Localizada no coração da cidade de São Paulo, 
+            nossa barbearia traz para o mercado o que há de melhor 
+            para o seu cabelo e barba.
+          </p>
+          <p class="about__details-paragraph">
+            Oferecemos profissionais experientes e antenados às 
+            mudanças no mundo da moda. O atendimento possui padrão
+            de excelência e agilidade, garantindo qualidade e 
+            satisfação dos nossos clientes.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="services-hero">
+          <span class="tag">Barbearia Alura</span>
+          <h3 class="section__heading services__title">
+            Nossos Serviços
+          </h3>
+          <p class="services-hero__description">
+            Além de uma ótima avaliação dos nossos clientes, 
+            oferecemos espaço temático, profissionais qualificados,
+            produtos de excelência e uma ótima localização.
+          </p>
+          <a href="#contact" class="primary-btn">
+            Entre em Contato
+          </a>
+        </div>
+
+        <div class="services-content">
+          <ul class="services__list">
+            <li class="services__item">
+              <img 
+                src="./assets/hairdryer.svg" 
+                alt="secador de cabelo" 
+                class="services__item-icon"
+              >
+              <h4 class="services__item-title">Hair Styling</h4>
+              <p class="services__item-description">
+                Executamos o estilo desejado usando produtos 
+                profissionais e adequados para cada tipo de cabelo.
+                Além disso, podemos ajudar a encontrar o melhor 
+                corte de acordo com seu rosto.
+              </p>
+            </li>
+            <li class="services__item">
+              <img 
+                src="./assets/razor.svg" 
+                alt="navalha" 
+                class="services__item-icon"
+              >
+              <h4 class="services__item-title">Beard Design</h4>
+              <p class="services__item-description">
+                Uma barba bem feita faz toda diferença na aparência 
+                e autoestima de um homem, então passamos por todo 
+                processo de limpeza, hidratação e design com produtos 
+                que respeitam seu tipo de pele.
+              </p>
+            </li>
+            <li class="services__item">
+              <img 
+                src="./assets/barber-shop.svg" 
+                alt="loja da barbearia" 
+                class="services__item-icon"
+              >
+              <h4 class="services__item-title">AluraShop</h4>
+              <p class="services__item-description">
+                Oferecemos um ambiente para aqueles clientes que se
+                 interessaram nos nossos produtos e profissionais 
+                 prontos para recomendar o que for melhor para 
+                 manutenção da sua aparência!
+              </p>
+            </li>
+            <li class="services__item">
+              <img 
+                src="./assets/soap.svg" 
+                alt="sabonete facial" 
+                class="services__item-icon"
+              >
+              <h4 class="services__item-title">Limpeza de Pele</h4>
+              <p class="services__item-description">
+                Todos nós precisamos cuidar bem da nossa pele para
+                 garantir uma aparência saudável e nada melhor do 
+                 que uma limpeza com produtos de qualidade e com 
+                 esteticistas que entendem do assunto.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="prices" class="prices">
+        <div class="prices-container">
+          <div class="prices-heading">
+            <span class="tag">Barbearia Alura</span>
+            <h2 class="section__heading prices-heading__title">
+              Nossos Preços
+            </h2>
+          </div>
+
+          <div class="prices__card-container">
+            <div class="prices__card">
+              <ul class="prices__card-list">
+                <li class="prices__card-item">
+                  <span class="prices__item-content">Cabelo</span>
+                  <div class="prices__card-separator"></div>
+                  <span class="prices__item-content">R$ 70,00</span>
+                </li>
+                <li class="prices__card-item">
+                  <span class="prices__item-content">Barba</span>
+                  <div class="prices__card-separator"></div>
+                  <span class="prices__item-content">R$ 55,00</span>
+                </li>
+                <li class="prices__card-item">
+                  <span class="prices__item-content">
+                    Limpeza de pele
+                  </span>
+                  <div class="prices__card-separator"></div>
+                  <span class="prices__item-content">R$ 110,00</span>
+                </li>
+                <li class="prices__card-item">
+                  <span class="prices__item-content">
+                    Cabelo + Barba
+                  </span>
+                  <div class="prices__card-separator"></div>
+                  <span class="prices__item-content">R$ 105,00</span>
+                </li>
+                <li class="prices__card-item">
+                  <span class="prices__item-content">
+                    Cabelo + Limpeza de pele
+                  </span>
+                  <div class="prices__card-separator"></div>
+                  <span class="prices__item-content">R$ 160,00</span>
+                </li>
+              </ul>
+              <a href="#appointment" class="primary-btn prices__card-btn">
+                Agende seu horário
+              </a>
+            </div>
+
+            <img 
+              src="./assets/barber-working.jpg" 
+              alt="Nosso barbeiro cortando cabelo" 
+              class="prices__img"
+            >
+          </div>
+
+          <div class="prices__barber-stats">
+            <div class="barber-stats__data">
+              <strong class="barber-stats__number">65</strong>
+              <span class="barber-stats__legend">Clientes</span>
+            </div>
+
+            <div class="barber-stats__data">
+              <strong class="barber-stats__number">40</strong>
+              <span class="barber-stats__legend">Produtos</span>
+            </div>
+
+            <div class="barber-stats__data">
+              <strong class="barber-stats__number">12</strong>
+              <span class="barber-stats__legend">Clientes</span>
+            </div>
+
+            <div class="barber-stats__data">
+              <strong class="barber-stats__number">38</strong>
+              <span class="barber-stats__legend">Produtos</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="appointment" class="appointment">
+        <span class="tag">Barbearia Alura</span>
+        <h3 class="section__heading appointment__title">
+          Agendamento
+        </h3>
+
+        <form class="appointment__form">
+          <div class="appointment__form-field">
+            <input 
+              type="text" id="name" 
+              class="appointment__input" 
+              required
+            >
+            <label for="name" class="appointment__label">
+              Nome
+            </label>
+          </div>
+          
+          <div class="appointment__form-field">
+            <input 
+              type="email" id="email" 
+              class="appointment__input" 
+              required
+            >
+            <label for="email" class="appointment__label">
+              Email
+            </label>
+          </div>
+  
+          <div class="appointment__form-field">
+            <input 
+              type="tel" id="telephone" 
+              class="appointment__input" 
+              required
+            >
+            <label for="telephone" class="appointment__label">
+              Telefone
+            </label>
+          </div>
+  
+          <div class="appointment__form-field">
+            <textarea 
+              rows="4" id="message" 
+              class="appointment__textarea"
+            ></textarea>
+            <label for="message" class="appointment__label">
+              Mensagem
+            </label>
+          </div>
+  
+          <fieldset class="appointment__fieldset">
+            <legend class="appointment__fieldset-legend">
+              Como prefere nosso contato?
+            </legend>
+            <label for="radio-whatsapp" class="appointment__legend-label">
+              <input 
+                type="radio" id="radio-whatsapp" 
+                name="contact" value="whatsapp" 
+                class="appointment__radio-input" 
+                checked
+              >
+              Whatsapp
+            </label>
+            <label for="radio-email" class="appointment__legend-label">
+              <input 
+                type="radio" id="radio-email" 
+                name="contact" value="email" 
+                class="appointment__radio-input"
+              >
+              Email
+            </label>
+            <label for="radio-call" class="appointment__legend-label">
+              <input 
+                type="radio" id="radio-call" 
+                name="contact" value="call" 
+                class="appointment__radio-input"
+              >
+              Ligação
+            </label>
+          </fieldset>
+  
+          <label class="appointment__legend-label checkbox">
+            <input type="checkbox" class="appointment__checkbox-input">
+            Gostaria de receber nossas novidades por email?
+          </label>
+  
+          <button type="submit" class="primary-btn appointment__form-btn">
+            Enviar
+          </button>
+        </form>
+  
+        <span class="appointment__schedule">
+          Abrimos na semana das 8h às 20h e aos sabados até às 18h.
+        </span>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="contact-details">
+          <span class="tag">Barbearia Alura</span>
+          <h3 class="section__heading contact-details__title">
+            Contato
+          </h3>
+          <ul class="contact-details__list">
+            <li class="contact-details__item">
+              <img 
+                src="./assets/location-pin.svg" 
+                alt="ícone de localização" 
+                class="contact-details__icon"
+              >
+              <address>
+                Rua Vergueiro, 3185 - Vila Mariana, 04101-300
+              </address>
+            </li>
+            <li class="contact-details__item">
+              <img 
+                src="./assets/email.svg" 
+                alt="ícone de email" 
+                class="contact-details__icon"
+              >
+              <a href="mailto:barbearia@alura.com" class="contact-details__link">
+                barbearia@alura.com
+              </a>
+            </li>
+            <li class="contact-details__item">
+              <img 
+                src="./assets/phone.svg" 
+                alt="ícone de telefone" 
+                class="contact-details__icon"
+              >
+              <a href="https://web.whatsapp.com/send?phone=11999999999" class="contact-details__link">
+                (11) 93006-0069
+              </a>
+            </li>
+          </ul>
+        </div>
+    
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.449840474901!2d-46.63452058546993!3d-23.58819478466952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sAlura%20-%20Escola%20Online%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1675690959206!5m2!1spt-BR!2sbr" 
+          allowfullscreen="true" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          class="contact__map"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__info">
+        <div class="footer__info-container">
+          <div class="footer__info-content">
+            <h4 class="footer__info-title">
+              Barbearia<em>Alura</em>
+            </h4>
+            <p class="footer__content-description">
+              O principal componente de um ambiente saudável para
+              a autoestima é que ele precisa ser estimulante. 
+              Deve fornecer calor incondicional.
+            </p>
+            <ul class="footer__social-media">
+              <li class="social-media__item">
+                <img src="./assets/facebook.svg" alt="facebook">
+              </li>
+              <li class="social-media__item">
+                <img src="./assets/twitter.svg" alt="twitter">
+              </li>
+              <li class="social-media__item">
+                <img src="./assets/instagram.svg" alt="instagram">
+              </li>
+            </ul>
+          </div>
+  
+          <div class="footer__info-news">
+            <h5 class="footer__news-title">Newsletter</h5>
+            <form class="footer__news-form">
+              <input 
+                type="email" placeholder="seu@email.com" 
+                aria-label="informe seu email para novidades" 
+                class="footer__news-input" 
+                required
+              >
+              <button type="submit" class="primary-btn footer__news-btn">
+                Inscreva-me
+              </button>
+            </form>
+            <span class="footer__news-description">
+              Fique por dentro de nossas promoções, novos produtos 
+              e nossos serviços.
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <div class="footer__copyright-container">
+          <p class="copyright">
+            Barbearia Alura &copy; 2023. All rights reserved.
+          </p>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#about" class="footer__nav-link">Sobre</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#services" class="footer__nav-link">
+                  Serviços
+                </a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#prices" class="footer__nav-link">Preços</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#appointment" class="footer__nav-link">
+                  Agendamento
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 .header {
   position: relative;
   height: 100vh;
-  background-image: url(../assets/hero-img.jpg);
+  background-image: url(../assets/images/hero-img.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -77,7 +77,8 @@
   color: var(--orange-500);
 }
 
-.header__menu-icon, .nav__close-icon {
+.header__menu-icon, 
+.nav__close-icon {
   width: 2rem;
   display: none;
 }
@@ -119,7 +120,8 @@
     padding: 1.75rem 1rem;
   }
 
-  .content-intro__welcome, .content-intro__message {
+  .content-intro__welcome, 
+  .content-intro__message {
     font-size: 1rem;
   }
 
@@ -165,20 +167,21 @@
   }
 
   .nav-container {
-    width: 198px;
+    width: 0;
     height: 100%;
     position: absolute;
     top: 0;
-    right: -198px;
-    display: flex;
+    right: 0;
+    display: none;
     flex-direction: column;
     padding: 1.75rem 2rem;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .5s;
     background-color: var(--gray-800);
   }
 
   .nav-container--open {
-    right: 0;
+    width: 198px;
+    display: flex;
   }
 
   .nav__close-icon {

@@ -3,7 +3,7 @@
   min-height: 1028px;
   display: flex;
   justify-content: center;
-  background: url(../assets/back-2.png) no-repeat center bottom;
+  background: url(../assets/images/back-2.png) no-repeat center bottom;
   background-color: var(--gray-100);
 }
 
@@ -91,7 +91,8 @@
     flex-direction: column;
   }
 
-  .prices__card, .prices__img {
+  .prices__card, 
+  .prices__img {
     width: 100%;
   }
 
@@ -159,7 +160,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .prices__card-container, .prices__barber-stats {
+  .prices__card-container, 
+  .prices__barber-stats {
     width: calc(560px * 2);
   }
   

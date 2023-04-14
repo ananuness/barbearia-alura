@@ -81,7 +81,8 @@
     padding: 2rem 1rem;
   }
 
-  .appointment__input, .appointment__textarea {
+  .appointment__input, 
+  .appointment__textarea {
     width: 100%;
   }  
 }

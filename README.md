@@ -12,14 +12,14 @@
 </p>
 
 <p align="center">
- <a href="#cursos">Cursos</a> • 
- <a href="#demo">Demonstração</a> •
- <a href="#acertos-dificuldades-e-melhorias">
+ <a href="#books-cursos">Cursos</a> • 
+ <a href="#desktop_computer-demonstração">Demonstração</a> •
+ <a href="#woman_technologist-acertos-dificuldades-e-melhorias">
   Acertos, dificuldades e melhorias
  </a>
 </p>
 
-## [📚 Cursos](#cursos)
+## :books: Cursos
 
 Foram abordados conceitos apresentados nos cursos:
 
@@ -31,12 +31,12 @@ Foram abordados conceitos apresentados nos cursos:
 - [Layouts responsivos: trabalhando com layouts mobile](https://cursos.alura.com.br/course/mobile-first-layouts-responsivos);
 - [Tipografia: conhecendo o que há por trás dos tipos](https://cursos.alura.com.br/course/tipografia-conceito);
 
-## [🖥 Demonstração](#demo)
+## :desktop_computer: Demonstração
 
 <img src="./assets/readme/barbershop-overview.gif" alt="gif (imagem que se movimenta) mostrando a aplicação da barbearia">
 <p>Ou acesse o <a href="https://ananuness.github.io/barbearia-alura/">site</a>.</p>
 
-## (👩‍💻 Acertos, dificuldades e melhorias)[#acertos-dificuldades-e-melhorias]
+## :woman_technologist: Acertos, dificuldades e melhorias
 
 - ☀️ Acertos: 
   - Estrutura do projeto, arquivos bem separados para facilitar visualização e manutenção;

@@ -19,7 +19,7 @@
  </a>
 </p>
 
-## 📚 Cursos {#cursos}
+## [📚 Cursos](#cursos)
 
 Foram abordados conceitos apresentados nos cursos:
 
@@ -31,12 +31,12 @@ Foram abordados conceitos apresentados nos cursos:
 - [Layouts responsivos: trabalhando com layouts mobile](https://cursos.alura.com.br/course/mobile-first-layouts-responsivos);
 - [Tipografia: conhecendo o que há por trás dos tipos](https://cursos.alura.com.br/course/tipografia-conceito);
 
-## 🖥 Demonstração {#demo}
+## [🖥 Demonstração](#demo)
 
 <img src="./assets/readme/barbershop-overview.gif" alt="gif (imagem que se movimenta) mostrando a aplicação da barbearia">
 <p>Ou acesse o <a href="https://ananuness.github.io/barbearia-alura/">site</a>.</p>
 
-## 👩‍💻 Acertos, dificuldades e melhorias {#acertos-dificuldades-e-melhorias}
+## (👩‍💻 Acertos, dificuldades e melhorias)[#acertos-dificuldades-e-melhorias]
 
 - ☀️ Acertos: 
   - Estrutura do projeto, arquivos bem separados para facilitar visualização e manutenção;

@@ -3,9 +3,9 @@
 
 <p align="center">
   Projeto introduzido no primeiro curso de html e css da trilha Fullstack do 
-  <a href="https://desenvolve.grupoboticario.com.br/" target="__blank">Programa Desenvolve</a> 
+  <a href="https://desenvolve.grupoboticario.com.br/">Programa Desenvolve</a> 
   do Grupo Boticário em parceria com a 
-  <a href="https://www.alura.com.br/" target="__blank">Alura</a> 
+  <a href="https://www.alura.com.br/">Alura</a> 
   com o objetivo de treinar a base das linguagens, mas decidi criar um 
   layout personalizado pensando no que poderia ser atrativo para uma barbearia com 
   inspiração de layouts da web. ✨
@@ -34,7 +34,7 @@ Foram abordados conceitos apresentados nos cursos:
 ## 🖥 Demonstração
 
 <img src="./assets/readme/barbershop-overview.gif" alt="gif (imagem que se movimenta) mostrando a aplicação da barbearia">
-<p>Ou acesse o <a href="https://ananuness.github.io/barbearia-alura/" target="__blank">site</a>.</p>
+<p>Ou acesse o <a href="https://ananuness.github.io/barbearia-alura/">site</a>.</p>
 
 ## 👩‍💻 Acertos, dificuldades e melhorias
 
@@ -56,7 +56,7 @@ Foram abordados conceitos apresentados nos cursos:
 
 <p align="center">
   Feito com 🤎 por
-  <a align="center" href="https://www.linkedin.com/in/ana-beatriz-nunes/" target="__blank">
+  <a align="center" href="https://www.linkedin.com/in/ana-beatriz-nunes/">
     Ana Beatriz Nunes
   </a>
 </p>

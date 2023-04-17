@@ -7,7 +7,8 @@
   do Grupo Boticário em parceria com a 
   <a href="https://www.alura.com.br/">Alura</a> 
   com o objetivo de treinar a base das linguagens, mas decidi criar um 
-  layout personalizado pensando no que poderia ser atrativo para uma barbearia com inspiração de layouts da web. ✨
+  layout personalizado pensando no que poderia ser atrativo para uma barbearia com 
+  inspiração de layouts da web. ✨
 </p>
 
 <p align="center">
@@ -33,6 +34,7 @@ Foram abordados conceitos apresentados nos cursos:
 ## 🖥 Demonstração
 
 <img src="./assets/readme/barbershop-overview.gif" alt="gif (imagem que se movimenta) mostrando a aplicação da barbearia">
+<p>Ou acesse o <a href="https://ananuness.github.io/barbearia-alura/">site</a>.</p>
 
 ## 👩‍💻 Acertos, dificuldades e melhorias
 

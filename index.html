@@ -29,13 +29,13 @@
             </h1>
             <img 
               src="./assets/icons/menu-icon.svg" 
-              alt="Menu" 
+              alt="abrir menu" 
               class="header__menu-icon"
             >
             <div class="nav-container">
               <img 
                 src="./assets/icons/close-icon.svg" 
-                alt="Menu" 
+                alt="fechar menu" 
                 class="nav__close-icon"
               >
               <nav class="header__nav">
@@ -96,7 +96,7 @@
           </div>
           <img 
             src="./assets/images/barber-cutting.jpg" 
-            alt="Barbeiro fazendo a barba do cliente" 
+            alt="barbeiro fazendo a barba do cliente" 
             class="about__img"
           >
         </div>
@@ -249,7 +249,7 @@
 
             <img 
               src="./assets/images/barber-working.jpg" 
-              alt="Nosso barbeiro cortando cabelo" 
+              alt="nosso barbeiro cortando cabelo" 
               class="prices__img"
             >
           </div>
@@ -289,6 +289,7 @@
             <input 
               type="text" id="name" 
               class="appointment__input" 
+              aria-placeholder="Seu nome"
               required
             >
             <label for="name" class="appointment__label">
@@ -300,6 +301,7 @@
             <input 
               type="email" id="email" 
               class="appointment__input" 
+              aria-placeholder="seunome@email.com"
               required
             >
             <label for="email" class="appointment__label">
@@ -310,7 +312,8 @@
           <div class="appointment__form-field">
             <input 
               type="tel" id="telephone" 
-              class="appointment__input" 
+              class="appointment__input"
+              aria-placeholder="(99)99999-9999" 
               required
             >
             <label for="telephone" class="appointment__label">
@@ -322,6 +325,7 @@
             <textarea 
               rows="4" id="message" 
               class="appointment__textarea"
+              aria-placeholder="Mensagem"
             ></textarea>
             <label for="message" class="appointment__label">
               Mensagem

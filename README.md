@@ -23,13 +23,13 @@
 
 Foram abordados conceitos apresentados nos cursos:
 
-- [HTML5 e CSS3 Parte 1: crie uma página da web](https://cursos.alura.com.br/course/html5-css3-primeiros-passos);
-- [HTML5 e CSS3 Parte 2: posicionamento, listas e navegação](https://cursos.alura.com.br/course/html5-css3-posicionamento-listas-navegacao);
-- [HTML5 e CSS3 Parte 3: trabalhando com formulários e tabelas](https://cursos.alura.com.br/course/html5-css3-formularios-tabelas);
-- [HTML5 e CSS3 Parte 4: avançando no CSS](https://cursos.alura.com.br/course/html5-css3-avancando-css);
-- [Flexbox: posicione elementos na tela](https://cursos.alura.com.br/course/posicione-elementos-com-flexbox);
-- [Layouts responsivos: trabalhando com layouts mobile](https://cursos.alura.com.br/course/mobile-first-layouts-responsivos);
-- [Tipografia: conhecendo o que há por trás dos tipos](https://cursos.alura.com.br/course/tipografia-conceito);
+- [HTML5 e CSS3 Parte 1: crie uma página da web](https://cursos.alura.com.br/course/html5-css3-primeiros-passos)
+- [HTML5 e CSS3 Parte 2: posicionamento, listas e navegação](https://cursos.alura.com.br/course/html5-css3-posicionamento-listas-navegacao)
+- [HTML5 e CSS3 Parte 3: trabalhando com formulários e tabelas](https://cursos.alura.com.br/course/html5-css3-formularios-tabelas)
+- [HTML5 e CSS3 Parte 4: avançando no CSS](https://cursos.alura.com.br/course/html5-css3-avancando-css)
+- [Flexbox: posicione elementos na tela](https://cursos.alura.com.br/course/posicione-elementos-com-flexbox)
+- [Layouts responsivos: trabalhando com layouts mobile](https://cursos.alura.com.br/course/mobile-first-layouts-responsivos)
+- [Tipografia: conhecendo o que há por trás dos tipos](https://cursos.alura.com.br/course/tipografia-conceito)
 
 ## :desktop_computer: Demonstração
 

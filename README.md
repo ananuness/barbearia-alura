@@ -1,5 +1,5 @@
 <img src="./assets/readme/barbearia-alura-banner.png" alt="banner da Barbearia Alura">
-<h1 align="center">💈 Barbearia Alura 💈</h1>
+<h1 align="center">💈 Barbearia Alura</h1>
 
 <p align="center">
   Projeto introduzido no primeiro curso de html e css da trilha Fullstack do 

@@ -43,7 +43,7 @@ Foram abordados conceitos apresentados nos cursos:
   - Uso do padrão BEM no CSS, para simplificar os seletores CSS e evitar conflitos de estilo;
   - HTML semântico e acessível;
 
-- ⛈ Dificuldades:
+- 🌧️ Dificuldades:
   - Definir bons breakpoints e como organizá-los nos arquivos CSS;
   - Estilizar os inputs com a animação da label sem prejudicar a acessibilidade;
 

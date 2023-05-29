@@ -22,20 +22,6 @@
   gap: 8px;
 }
 
-.appointment__label {
-  position: absolute;
-  pointer-events: none;
-  left: 16px;
-  top: 16px;
-  transition: 0.2s ease-in-out all;
-}
-
-.appointment__input:focus ~ .appointment__label,
-.appointment__textarea:focus ~ .appointment__label {
-  top: -10px;
-  background-color: var(--gray-100);
-}
-
 .appointment__input,
 .appointment__textarea {
   max-width: 400px;
@@ -44,6 +30,34 @@
 
 .appointment__textarea {
   resize: none;
+}
+
+.appointment__input::placeholder,
+.appointment__textarea::placeholder {
+  opacity: 0;
+}
+
+.appointment__label {
+  position: absolute;
+  pointer-events: none;
+  left: 16px;
+  top: 16px;
+  transition: 0.2s ease-in-out all;
+}
+
+.appointment__input:not(:placeholder-shown) ~ .appointment__label,
+.appointment__textarea:not(:placeholder-shown) ~ .appointment__label,
+.appointment__input:focus ~ .appointment__label,
+.appointment__textarea:focus ~ .appointment__label {
+  top: -10px;
+  padding: 0 4px;
+  background-color: var(--gray-100);
+}
+
+.appointment__input:not(:placeholder-shown, :focus) ~ .appointment__label,
+.appointment__textarea:not(:placeholder-shown, :focus) ~ .appointment__label {
+  font-size: .875rem;
+  color: var(--gray-600);
 }
 
 .appointment__fieldset-legend,

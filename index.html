@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="./css/prices.css">
     <link rel="stylesheet" href="./css/appointment.css">
+    <link rel="stylesheet" href="./css/toast.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
   </head>
@@ -379,6 +380,19 @@
         <span class="appointment__schedule">
           Abrimos na semana das 8h às 20h e aos sabados até às 18h.
         </span>
+
+        <div class="appointment__toast">
+          <div class="toast-content">
+            <div class="toast-message">
+              <span class="toast__title">Solicitação enviada</span>
+              <span class="toast__description">
+                Aguarde que entraremos em contato
+              </span>
+            </div>
+          </div>
+          <!-- close icon here -->
+          <div class="toast__progress"></div>
+      </div>
       </section>
 
       <section id="contact" class="contact">
@@ -507,5 +521,6 @@
     </footer>
 
     <script src="./js/main.js"></script>
+    <script src="./js/toast.js"></script>
   </body>
 </html>

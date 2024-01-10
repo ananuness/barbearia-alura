@@ -5,10 +5,7 @@
   Projeto introduzido no primeiro curso de html e css da trilha Fullstack do 
   <a href="https://desenvolve.grupoboticario.com.br/">Programa Desenvolve</a> 
   do Grupo Boticário em parceria com a 
-  <a href="https://www.alura.com.br/">Alura</a> 
-  com o objetivo de treinar a base das linguagens, mas decidi criar um 
-  layout personalizado pensando no que poderia ser atrativo para uma barbearia com 
-  inspiração de layouts da web. ✨
+  <a href="https://www.alura.com.br/">Alura</a> ✨
 </p>
 
 <p align="center">
@@ -38,16 +35,19 @@ Foram abordados conceitos apresentados nos cursos:
 
 ## :woman_technologist: Acertos, dificuldades e melhorias
 
-- ☀️ Acertos: 
+- ☀️ Acertos:
+
   - Estrutura do projeto, arquivos bem separados para facilitar visualização e manutenção;
   - Uso do padrão BEM no CSS, para simplificar os seletores CSS e evitar conflitos de estilo;
   - HTML semântico e acessível;
 
 - 🌧️ Dificuldades:
+
   - Definir bons breakpoints e como organizá-los nos arquivos CSS;
   - Estilizar os inputs com a animação da label sem prejudicar a acessibilidade;
 
 - 🌈 O que pode melhorar:
+
   - Responsividade do header/hero section em landscape;
   - Animação da navegação em telas menores quando o menu hamburguer está presente;
   - Validações mais rígidas nos inputs da seção de Agendamento.

@@ -12,7 +12,7 @@
 <p align="center">
  <a href="#books-subjects">Subjects</a> • 
  <a href="#desktop_computer-demonstration">Demonstration</a> •
- <a href="#woman_technologist-acertos-dificuldades-e-melhorias">
+ <a href="#woman_technologist-achievements-difficulties-e-improvements">
   Achievements, difficulties and improvements 
  </a>
 </p>

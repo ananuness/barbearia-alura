@@ -1,4 +1,11 @@
 <img src="./assets/readme/barbearia-alura-banner.png" alt="banner da Barbearia Alura">
+<table align="right">
+  <tr>
+    <td>
+      <a href="https://github.com/ananuness/barbearia-alura/blob/main/README.en.md" width="60px">en 🇺🇸</a>
+    </td>
+  </tr>
+</table>
 <h1 align="center">💈 Barbearia Alura</h1>
 
 <p align="center">
